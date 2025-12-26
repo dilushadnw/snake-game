@@ -14,9 +14,9 @@ pygame.init()
 # Game Constants
 WINDOW_WIDTH = 600
 WINDOW_HEIGHT = 600
-GRID_SIZE = 20
-GRID_WIDTH = WINDOW_WIDTH // GRID_SIZE
-GRID_HEIGHT = WINDOW_HEIGHT // GRID_SIZE
+GRID_SIZE = 30  # Size of each cell in pixels (600/20 = 30)
+GRID_WIDTH = WINDOW_WIDTH // GRID_SIZE  # 20 cells wide
+GRID_HEIGHT = WINDOW_HEIGHT // GRID_SIZE  # 20 cells tall
 FPS = 10
 
 # Colors (RGB)
